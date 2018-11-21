@@ -1,6 +1,6 @@
 # pureinject
 
-A light, pure javascript, dependency free injection framework for javascript projects.
+A light, pure javascript, dependency free injection "framework" for javascript projects.
 
 ![logo](docs/pureinject-logo.png)
 
@@ -71,6 +71,10 @@ injector.register('HttpService', injector => {
   return new HttpService(injector);
 });
 ```
+
+## About
+
+- [CHANGELOG](CHANGELOG.md)
 
 ## Thanks to
 
