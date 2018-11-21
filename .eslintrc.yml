@@ -1,0 +1,4 @@
+extends: airbnb-base
+rules:
+  no-underscore-dangle: 0
+  valid-typeof: 1
