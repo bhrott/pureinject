@@ -1,0 +1,35 @@
+{
+  "name": "pureinject",
+  "version": "1.0.0",
+  "description": "A light, pure javascript, dependency free injection framework for javascript projects.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "lint": "eslint index.js",
+    "validate": "yarn lint && yarn test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/benhurott/pureinject.git"
+  },
+  "keywords": [
+    "inject",
+    "inversion",
+    "control",
+    "dependency",
+    "light",
+    "pure"
+  ],
+  "author": "Ben-hur Santos Ott",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/benhurott/pureinject/issues"
+  },
+  "homepage": "https://github.com/benhurott/pureinject#readme",
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^23.6.0"
+  }
+}
