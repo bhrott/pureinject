@@ -2,6 +2,8 @@
 
 A light, pure javascript, dependency free injection "framework" for javascript projects.
 
+![travis-master](https://api.travis-ci.org/benhurott/pureinject.svg?branch=master)
+
 ![logo](docs/pureinject-logo.png)
 
 ## Setup
