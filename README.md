@@ -77,6 +77,7 @@ injector.register('HttpService', injector => {
 ## About
 
 - [CHANGELOG](CHANGELOG.md)
+- [Express app sample](https://github.com/benhurott/pureinject-express-sample)
 
 ## Thanks to
 
