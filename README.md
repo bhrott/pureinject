@@ -46,6 +46,35 @@ injector.register('MyService', injector => {
 });
 ```
 
+### With Typescript
+
+```ts
+import { createInjector, PureInjector } from 'pureinject'
+
+class MyHttpService {
+  // ...
+}
+
+class MyService {
+
+  private _httpService: MyHttpService
+
+  constructor(injector: PureInjector) {
+    this._httpService = injector.resolve<MyHttpService>('MyHttpService');
+  }
+}
+
+const injector: PureInjector = createInjector()
+
+injector.register('MyHttpService', (injector: PureInjector) => {
+  return new MyHttpService();
+})
+
+injector.register('MyService', (injector: PureInjector) => {
+  return MyService(injector);
+});
+```
+
 ## How it works
 
 It's simple: each time you call `injector.resolve`, it will run the the registered function and will retrieve the new instance of the service.
